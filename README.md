@@ -1,7 +1,7 @@
 # LIVEFIT
 
 LIVEFIT is a Next.js-based web application designed to promote healthier lifestyles by providing personalized diet and exercise recommendations based on user preferences, fitness goals, and health conditions.
-
+##live at - https://livefitankitrj3.vercel.app/
 ## Features
 
 - **Personalized Diet Plans**: Users receive tailored diet plans based on their dietary preferences and health goals.
