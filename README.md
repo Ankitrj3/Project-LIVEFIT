@@ -1,69 +1,50 @@
-![Alt Text](https://www.leapingbunny.org/sites/default/files/2021-12/Undefined%20logo%20blk.png)
+# LIVEFIT
 
-This is a project based on Health and Fitness where we track and generate user based data for their fitness and wellness. 
+LIVEFIT is a Next.js-based web application designed to promote healthier lifestyles by providing personalized diet and exercise recommendations based on user preferences, fitness goals, and health conditions.
 
+## Features
 
-We have used On Dmand platform to run our backend application using agents and modified LLM. 
+- **Personalized Diet Plans**: Users receive tailored diet plans based on their dietary preferences and health goals.
+- **Exercise Recommendations**: Suggests workouts suited to individual fitness levels and goals.
+- **Seamless UI**: Designed with an intuitive user experience to ensure ease of use.
+- **Responsive Design**: Works across various devices, including mobile, tablet, and desktop.
 
-## Getting Started
+## Tech Stack
 
-To clone and install Next.js, you can follow these steps:
+- **Frontend**: Next.js, Tailwind CSS
+- **State Management**: React Hooks
+- **Styling**: Tailwind CSS
 
-1. Open your terminal or command prompt.
-2. Navigate to the directory where you want to clone the Next.js project.
-3. Run the following command to clone the Next.js repository:
+## Installation & Setup
 
-    ```
-    git clone https://github.com/xanderbilla/web-a-thon
-    ```
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/livefit.git
+   cd livefit
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
+4. Open your browser and navigate to `http://localhost:3000`
 
-4. Once the cloning process is complete, navigate into the cloned directory:
+## Project Structure
+```
+📦livefit
+ ┣ 📂components
+ ┣ 📂pages
+ ┣ 📂public
+ ┣ 📂styles
+ ┣ 📜package.json
+ ┣ 📜README.md
+```
 
-    ```
-    cd web-a-thon
-    ```
+## Contributing
+Contributions are welcome! Feel free to open an issue or submit a pull request.
 
-5. Install the project dependencies by running the following command:
-
-    ```
-    npm install
-    ```
-
-
-6. After the installation is finished, you can start the Next.js development server by running:
-
-    ```
-    npm run dev
-    ```
-
-    This will start the development server and you can access your Next.js application at http://localhost:3000.
-
-That's it! You have successfully cloned and installed Next.js. You can now start building your Health and Fitness project using Next.js.
-
-### **Before that make sure to start our backend application from [clicking here...](https://github.com/rajvardhan05/webAThon-backend)**
-
-
-# Challenges and Features
-
-These routes are used to interact with the Health and Fitness project's API. You can use them to retrieve information about users, posts, and comments.
-
-In the challenges, we successfully created 2 out of 3 agents for our Health and Fitness project. One agent is for chat, which helps in providing personalized recipes and suggesting foods according to health. The other agent is a barcode scanner, also known as "Know Your Food," which gives brief details about the scanned product. 
-
-Unfortunately, we encountered a bug issue in the platform itself while working on the third agent, which took hours to debug. However, due to the delay, we had to skip implementing it for now. 
-
-In addition to these agents, we have implemented basic functionality such as a blog. 
-
-
-# Team
-
-- [**Ankit Ranjan (Leader)**](https://github.com/ankitrj3)
-- [**Rajvardhan Singh**](https://github.com/rajvardhan05)
-- [**Vikas Singh**](https://github.com/xanderbilla/)
-- [**Pushkar Varshney**](https://github.com/M-Pushkar-Varshney-K)
-
-
-
-
-
-
-
+## License
+This project is licensed under the MIT License.
