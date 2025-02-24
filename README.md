@@ -19,8 +19,9 @@ LIVEFIT is a Next.js-based web application designed to promote healthier lifesty
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/livefit.git
-   cd livefit
+   git clone https://github.com/Ankitrj3/Project-LIVEFIT.git
+   cd Project-LIVEFIT
+
    ```
 2. Install dependencies:
    ```sh
